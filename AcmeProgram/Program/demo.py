@@ -20,5 +20,5 @@ for employee in data_employees:
       payment =  PaymentRole(employee) 
       payment.calculate_Payment(data_employees[employee])
       i +=1
-      print(f'Case {i}:\n\n{employee}\n\nINPUT:\n{inputs[y]}\n\nOUTPUT:\n{payment}\n')
+      print(f'Case {i}:\n\n{employee}\n\nINPUT:\n{inputs[y]}\n\nOUTPUT:\n{payment} USD\n')
       y +=1
