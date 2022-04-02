@@ -86,21 +86,21 @@ The output is the total amount to pay the employee.
     ├── README.md          <- The top-level README for developers using this project.
     ├── AcmeProgram        
         ├── Fields
-            └── WorkDays   <- Archivo con jornadas de trabajo y sus precios
-            └── Examples   <- archivo del registro de empleados
-        ├── Program        <- Carpeta del programa
-              ├── Test     <- Carpeta de testing
-                └── mainTest.py             <- main test
-                └── parameterizers_test.py  <- testing de funcionalidad de obtencion del precio por el rango
-                └── paymentRole_test.py     <- testing de funcionalidad de obtener el total apagar al empleado     
-            └── DataManagment.py <- clase para lectura de archivos
-            └── demo.py<- main del sistema
-            └── Employee.py<- clase de empleado
-            └── Exceptions.py<- clase que contiene las exceptions del sistema
-            └── Parameterizers.py<- clase del parametrizador 
-            └── PaymentRole.py<- clase de sol de pago 
-            └── RecordHours.py<- clase horas registro de horas 
-            └── Validator.py<- clase de validacion de dias, horas y formato de archivos
-            └── Weekdays.py<- enum de dias de la semana
-            └── Workday.py          <- clase de la jornada de trabajo
+            └── WorkDays   <- File with the hour ranges and the prices
+            └── Examples   <- File with the employee records
+        ├── Program        
+              ├── Test     <- Testing directory
+                └── mainTest.py             <- Main test
+                └── parameterizers_test.py  <- Test for the parameterizer
+                └── paymentRole_test.py     <- Test for the payment calculation     
+            └── DataManagment.py            <- Class for file reading
+            └── demo.py<- main del sistema  <- Main execution file
+            └── Employee.py                 <- Employee class
+            └── Exceptions.py               <- Exception file with exceptions classes
+            └── Parameterizers.py           <- Parameterizer Class
+            └── PaymentRole.py              <- PaymentRol class
+            └── RecordHours.py              <- Record Hour class
+            └── Validator.py                <- Validor file
+            └── Weekdays.py                 <- Weekdays Enum
+            └── Workday.py                  <- WorkDay class
 -------
